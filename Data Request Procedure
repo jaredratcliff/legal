@@ -1,0 +1,60 @@
+# SAR Procedure
+
+*SAR = Subject Access Request, or data request to access, change, or erase data.*
+
+<aside>
+💡 When an SAR is received, the GDPR gives 30 days maximum to respond.
+
+</aside>
+
+1. Initiate Verification
+    1. In WordPress tools, initiate access/erase requests for each email address submitted by the user in the SAR. This will send a verification email to each email address, verifying the action.
+    2. Notify the submitter of our receipt of the SAR and alert them to check for the verification emails.
+2. Proceed with access/erase procedure, in each of the following areas:
+    1. MailerLite (current email marketing provider)
+    2. MailChimp (previous email marketing provider, which still has all contacts in the archive)
+    3. Zoho Mail box (communications with individual in inbox, sent, spam, folders, trash)
+    4. **************************************************If the request is access,************************************************** send their data archives from each of these sources to them. For Zoho mail, include PDFs of email communications.
+        1. Consider notifying the user that any interaction they have left with our social media, we are unable to associate with their email address and thus can’t remove; however, they can delete those interactions themselves.
+    5. Finally, complete the process in WordPress tools.
+    6. ************************************************If the request is erase,************************************************ remove traces.
+        1. After completion, use the option in WordPress tools to delete the request.
+        2. Delete any final emails with the user in Zoho Mail box, and my personal box (where SAR notifications are sent)
+
+# Our Commitments
+
+*What we have promised in our Terms of Service (TOS) and Privacy Policy (PP)*
+
+- Regarding collection and use of data and PII (Personally Identifiable Information)
+    - To limit collection to IP address and browser user agent string, [wordpress.com](http://wordpress.com) username, and data voluntarily submitted to us. (PP, Section 1)
+- Regarding retainment of data and PII
+    - If possible, to delete communications from visitors within one year (PP, Section 2)
+    - If possible, to delete website backups within six months (PP, Section 5)
+    - To not use cookies which transfer information back to us or to third parties
+    - To notify users on our email list of any material changes to our PP
+    - To notify users 15 days before material changes to TOS, unless urgent. Notification by prominent display on website and/or email to subscribers.
+
+# Definitions
+
+## Regarding Personal Data
+
+- PII: Personally Identifiable Information. Any representation of information that permits the identity of an individual to be reasonably inferred. (Includes name, address, birth date, SSN, banking details)
+- SAR: Subject Access Request. The term for a request from a user, exercising one of the eight rights provided under the GDPR in relation to their personal information, including the “right to be forgotten.”
+
+## Data Laws
+
+*Most of these laws apply to all sites based in their area of jurisdiction, as well as all sites with visitors from their area of jurisidiction. **************************************************Not a comprehensive list.***************************************************
+
+- CCPA: California Consumer Privacy Act (California, USA)
+- GDPR: General Data Protection Regulation (European Union)
+- PIPL: Personal Information Protection Law (China)
+
+## Regarding Data Laws
+
+- DPA: Data Protection Authority. Independent public bodies which supervise and enforce the application of privacy laws.
+- DPIA: Data Protection Impact Assessments. A requirement under the GDPR. These assessments help organizations identify and minimize the data protection risks associated with their projects. These must be carried out for processing that is “high risk”, but it’s good practice to use them for any processing of personal data.
+- DPO: Data Protection Officer. Someone in an organization who monitors their organization’s compliance with the GDPR. Some organizations are required to have a DPO.
+- EDPB: European Data Protection Board (European Union body in charge of the application of the GDPR)
+- ICO: Information Commissioner’s Office. The United Kingdom’s equivalent of a DPA.
+- ISO 27001: Not specifically a privacy term; one of the main specifications for an information security management system, for which businesses seek accreditation; covers all legal, physical, and technical controls involved in an organization’s data risk management process.
+- SCC: Standard Contractual Clauses. A contract signed by an organization within the EEA (European Economic Area) and an organization outside the EEA, which sets out their responsibilities in keeping personal data safe under the GDPR.
